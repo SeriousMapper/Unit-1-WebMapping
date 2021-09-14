@@ -1,0 +1,1 @@
+/* javascript by Jay Money, 2021 */
