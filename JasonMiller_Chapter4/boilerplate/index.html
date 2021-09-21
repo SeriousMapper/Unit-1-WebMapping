@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <style>
+            #mapid { height: 600px; width: 600px; margin: auto }
+            #header {font-family: 'Courier New', Courier, monospace; color:aliceblue }
+            body {
+                    background-image: url("img/matrix-code.gif");
+                    background-color: #cccccc;
+                }
+            
+        </style>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
+        
+    </head>
+
+    <body>
+        <script src="lib/jquery-3.6.0.js"> </script>
+        <!--put your initial page content here-->
+        <h1 id ="header"> We need to find Neo and his team from The hit film, "The Matrix" starring Keanu Reeves. <br> We have gathered intel that he is in a taxi with passenger count of 3, and his taxi trip is rather long. <br> Darker reds indicate longer trips, while brighter indicate short ones (less than 1000) <br> Can you find them?? (this map is filtered to passenger count of 3) </h1>
+        <div id="mapid"></div>
+        <div id="mymap"></div>
+        <p align="center"> <iframe margin = "auto" display = "block" width="560" height="315" src="https://www.youtube.com/embed/pFS4zYWxzNA" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+            <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+
+        <!--put your external script links here-->
+        
+        <!-- <script type="text/javascript" src="js/quickstartTutorial.js"></script> -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
